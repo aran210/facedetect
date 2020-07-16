@@ -1,4 +1,6 @@
 import React from 'react';
+import Navigation from './components/Navigation/Navigation';
+import Logo from './components/Logo/Logo';
 import './App.css';
 
 function App() {
@@ -6,8 +8,8 @@ function App() {
     <div className="App">
       <Navigation />
       <Logo />
-      <InputBar />
-      <FaceRecognition />
+      {/* <InputBar /> */}
+      {/* <FaceRecognition /> */}
     </div>
   );
 }

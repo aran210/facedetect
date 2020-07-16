@@ -1,0 +1,7 @@
+.Tilt {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    background: linear-gradient(to right, rgb(0, 14, 87), rgb(0, 204, 255));
+}
